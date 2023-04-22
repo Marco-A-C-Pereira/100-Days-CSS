@@ -3,6 +3,7 @@ import SectionTitle from "../../shared/SectionTitle";
 import { motion } from "framer-motion";
 import { useEffect } from "react";
 import Frame from "../../shared/Frame";
+import SrcButton from "../../shared/SrcButton";
 
 const cardData = [
   { id: 1, plan: "Basic", price: 5, Users: 5, GB: 20, Projects: 1 },
@@ -108,7 +109,10 @@ export default function PriceTable() {
 
   return (
     <Frame>
-      <SectionTitle> Price Table </SectionTitle>
+      <SectionTitle>
+        <p className="leading-snug font-sans font-bold">(20/4/23 - 21/4/23)</p>
+        Price Table:
+      </SectionTitle>
       <section className="flex flex-col items-center w-fit p-16 mx-auto bg-blue-100">
         <div className="pb-8 flex gap-4">
           {cardData.map((card) => {
@@ -123,7 +127,7 @@ export default function PriceTable() {
         </div>
         <PriceBarList CurrentCard={CurrentCard} />
       </section>
-      <SectionTitle> 20/4 - 21/4 </SectionTitle>
+      <SrcButton src="https://100dayscss.com/days/62/" />
     </Frame>
   );
 }

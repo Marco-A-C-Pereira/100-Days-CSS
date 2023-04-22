@@ -13,6 +13,12 @@ export default function Hdayscss() {
           <ShowcaseItem url="1" isCompleted={true}>
             Dia 1: Pricetable
           </ShowcaseItem>
+          <ShowcaseItem url="2" isCompleted={true}>
+            Dia 2: Circulos Infinitos
+          </ShowcaseItem>
+          <ShowcaseItem url="3" isCompleted={true}>
+            Dia 3: Hover Button
+          </ShowcaseItem>
         </div>
       </section>
     </main>
