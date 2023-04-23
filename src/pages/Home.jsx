@@ -54,8 +54,8 @@ export default function Home() {
           transition={{ duration: 4 }}
         >
           <h2 className="text-2xl text-gray-800 mt-8 tracking-tight">
-            Site dedicado à acompanhar meu progresso em design e CSS seguindo o
-            desafio do 100daysCSS e DailyUI
+            Site dedicado para acompanhar meu progresso em design e CSS seguindo
+            os desafios 100daysCSS e DailyUI
           </h2>
           <div className="flex gap-4 justify-center mt-4">
             <MainPageLink

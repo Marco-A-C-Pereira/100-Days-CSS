@@ -6,6 +6,7 @@ import Navbar from "./components/shared/Navbar";
 import Hdayscss from "./pages/Hdayscss";
 import InfiniteCircle from "./components/100Days/Day-2/InfiniteCircle";
 import HoverButon from "./components/100Days/Day-3/HoverButon";
+import SpinningElipses from "./components/100Days/Day-4/SpinningElipses";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="1" element={<PriceTable />} />
           <Route path="2" element={<InfiniteCircle />} />
           <Route path="3" element={<HoverButon />} />
+          <Route path="4" element={<SpinningElipses />} />
         </Route>
         <Route path="/DailyUI"></Route>
         <Route path="/Progress" />

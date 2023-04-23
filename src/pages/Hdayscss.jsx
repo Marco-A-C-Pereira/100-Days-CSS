@@ -19,6 +19,9 @@ export default function Hdayscss() {
           <ShowcaseItem url="3" isCompleted={true}>
             Dia 3: Hover Button
           </ShowcaseItem>
+          <ShowcaseItem url="4" isCompleted={false}>
+            Dia 4: Animação Elipses
+          </ShowcaseItem>
         </div>
       </section>
     </main>
