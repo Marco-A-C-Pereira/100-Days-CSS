@@ -18,7 +18,6 @@ function Ring() {
       }}
       transition={{ repeat: Infinity, duration: 5 }}
       className="border-dotted border border-green-700 h-20 w-20 rounded-full absolute top-[50%] left-[50%] "
-      // className="border border-red-700 h-20 w-20 rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
     ></motion.div>
   );
 }

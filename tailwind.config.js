@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        "Space-Grotesk": ["Space Grotesk", "sans-serif"],
       },
       animation: {
         text: "text 5s ease infinite",
