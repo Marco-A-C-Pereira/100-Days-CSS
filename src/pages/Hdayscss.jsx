@@ -25,6 +25,9 @@ export default function Hdayscss() {
           <ShowcaseItem url="5" isCompleted={true}>
             Dia 5: Sparkle Checkbox
           </ShowcaseItem>
+          <ShowcaseItem url="6" isCompleted={false}>
+            Dia 6: Guardasol 3D
+          </ShowcaseItem>
         </div>
       </section>
     </main>

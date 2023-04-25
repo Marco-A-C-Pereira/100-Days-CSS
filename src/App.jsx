@@ -7,9 +7,11 @@ import Hdayscss from "./pages/Hdayscss";
 import InfiniteCircle from "./components/100Days/Day-2/InfiniteCircle";
 import HoverButon from "./components/100Days/Day-3/HoverButon";
 import SpinningElipses from "./components/100Days/Day-4/SpinningElipses";
-import SignUp from "./components/DailyUI/Day -1/SignUp";
+import SignUp from "./components/DailyUI/Day-1/SignUp";
 import SparkleCheckbox from "./components/100Days/Day-5/SparkleCheckbox";
-import CreditCardCheckout from "./components/DailyUI/Day - 2/CreditCardCheckout";
+import CreditCardCheckout from "./components/DailyUI/Day-2/CreditCardCheckout";
+import RotatingParasol from "./components/100Days/Day-6/RotatingParasol";
+import LandingPage from "./components/DailyUI/Day-3/LandingPage";
 
 export default function App() {
   return (
@@ -24,10 +26,12 @@ export default function App() {
           <Route path="3" element={<HoverButon />} />
           <Route path="4" element={<SpinningElipses />} />
           <Route path="5" element={<SparkleCheckbox />} />
+          <Route path="6" element={<RotatingParasol />} />
         </Route>
         <Route path="/DailyUI">
           <Route path="1" element={<SignUp />} />
           <Route path="2" element={<CreditCardCheckout />} />
+          <Route path="3" element={<LandingPage />} />
         </Route>
         <Route path="/Progress" />
       </Routes>
