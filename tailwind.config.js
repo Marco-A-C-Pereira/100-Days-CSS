@@ -6,6 +6,8 @@ export default {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         "Space-Grotesk": ["Space Grotesk", "sans-serif"],
+        "Roboto-Condensed": ["Roboto Condensed", "sans-serif"],
+        "Contrail-One": ["Contrail One", "cursive"],
       },
       animation: {
         text: "text 5s ease infinite",
