@@ -28,6 +28,9 @@ export default function Hdayscss() {
           <ShowcaseItem url="6" isCompleted={false}>
             Dia 6: Guardasol 3D
           </ShowcaseItem>
+          <ShowcaseItem url="7" isCompleted={true}>
+            Dia 7: Gravação
+          </ShowcaseItem>
         </div>
       </section>
     </main>

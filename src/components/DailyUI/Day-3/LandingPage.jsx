@@ -46,7 +46,7 @@ function Hero() {
       </div>
 
       <div className="w-full">
-        <div className="border p-16">
+        <div className="p-16">
           <img className="w-full" src={mainProduct} />
         </div>
       </div>

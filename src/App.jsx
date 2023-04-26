@@ -12,6 +12,7 @@ import SparkleCheckbox from "./components/100Days/Day-5/SparkleCheckbox";
 import CreditCardCheckout from "./components/DailyUI/Day-2/CreditCardCheckout";
 import RotatingParasol from "./components/100Days/Day-6/RotatingParasol";
 import LandingPage from "./components/DailyUI/Day-3/LandingPage";
+import Recording from "./components/100Days/Day-7/Recording";
 
 export default function App() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
           <Route path="4" element={<SpinningElipses />} />
           <Route path="5" element={<SparkleCheckbox />} />
           <Route path="6" element={<RotatingParasol />} />
+          <Route path="7" element={<Recording />} />
         </Route>
         <Route path="/DailyUI">
           <Route path="1" element={<SignUp />} />
