@@ -13,6 +13,7 @@ import CreditCardCheckout from "./components/DailyUI/Day-2/CreditCardCheckout";
 import RotatingParasol from "./components/100Days/Day-6/RotatingParasol";
 import LandingPage from "./components/DailyUI/Day-3/LandingPage";
 import Recording from "./components/100Days/Day-7/Recording";
+import Calculator from "./components/DailyUI/Day-4/Calculator";
 
 export default function App() {
   return (
@@ -34,6 +35,7 @@ export default function App() {
           <Route path="1" element={<SignUp />} />
           <Route path="2" element={<CreditCardCheckout />} />
           <Route path="3" element={<LandingPage />} />
+          <Route path="4" element={<Calculator />} />
         </Route>
         <Route path="/Progress" />
       </Routes>

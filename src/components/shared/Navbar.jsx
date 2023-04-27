@@ -18,8 +18,8 @@ function NavItem({ path, children }) {
 
 export default function Navbar() {
   return (
-    <nav className="bg-[#6f76e7] p-2 drop-shadow z-10">
-      <ul className="flex text-xl font-bold tracking-wide gap-6 uppercase ">
+    <nav className="bg-[#6f76e7] p-2 drop-shadow  z-10">
+      <ul className="flex text-base md:text-xl  font-bold tracking-wide gap-6 uppercase ">
         <NavItem path={"/"}> Home</NavItem>
         <NavItem path={"/100DaysCSS"}> 100DaysCss</NavItem>
         <NavItem path={"/DailyUI"}> DailyUI</NavItem>

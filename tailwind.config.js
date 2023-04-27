@@ -7,6 +7,7 @@ export default {
         poppins: ["Poppins", "sans-serif"],
         "Space-Grotesk": ["Space Grotesk", "sans-serif"],
         "Roboto-Condensed": ["Roboto Condensed", "sans-serif"],
+        Prompt: ["Prompt", "sans-serif"],
         "Contrail-One": ["Contrail One", "cursive"],
       },
       animation: {
