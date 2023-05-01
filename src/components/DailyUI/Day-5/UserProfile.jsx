@@ -1,5 +1,6 @@
 import React from "react";
-import pfp from "./assets/Lainpfp.jpg";
+// import pfp from "./assets/Lainpfp.jpg";
+// import * as images from "./assets/";
 import { BellIcon, PencilIcon } from "@heroicons/react/24/outline";
 
 const langauges = [
@@ -30,7 +31,7 @@ function Navbar() {
           </p>
           <BellIcon className=" h-8 w-8" />
         </div>
-        <img src={pfp} className="h-8 w-8 rounded-full cursor-pointer" />
+        <img className="h-8 w-8 rounded-full cursor-pointer" />
       </div>
     </section>
   );
@@ -39,7 +40,7 @@ function Navbar() {
 function MainBanner() {
   function ProfileStat({ statLabel, statValue }) {
     return (
-      <p className="text-3xl">
+      <p className="text-3xl font-Roboto-Condensed tracking-widest">
         {statLabel}: <span className="text-3xl font-semibold">{statValue}</span>
       </p>
     );
@@ -47,9 +48,17 @@ function MainBanner() {
 
   return (
     <div className="flex rounded-xl shadow p-4">
-      <div className="flex flex-col items-center gap-2 ">
-        <img src={pfp} className="rounded-full border-4 border-[#E8FA3B] " />
+      <div className="flex flex-col items-center gap-2 relative">
+        <span className="border rounded-full border-black">
+          <img
+            src="../public/assets/lainpfp.jpg"
+            className="rounded-full border-4 border-[#E8FA3B] "
+          />
+        </span>
         <h2 className="text-3xl font-bold tracking-wide">Lain Iwakura🖥</h2>
+        <button className="bg-[#4d3afa] p-4 rounded-full text-white absolute bottom-10 right-5">
+          <PencilIcon className="h-8 w-8" />
+        </button>
       </div>
 
       <div className="flex flex-col gap-4 justify-center mx-8">
@@ -58,11 +67,7 @@ function MainBanner() {
         <ProfileStat statLabel="First Post" statValue="Jan/1983" />
       </div>
 
-      <div className="ml-auto">
-        <button className="bg-[#4d3afa] p-4 rounded-full text-white">
-          <PencilIcon className="h-8 w-8" />
-        </button>
-      </div>
+      <div className="ml-auto"></div>
     </div>
   );
 }
@@ -89,35 +94,41 @@ function LanguagesShowcase() {
 }
 
 function ProjectsShowcase() {
-  const projects = [{ id: 1, name: "Lading page", desc: "Loren" }];
-
-  function ProjectCard() {
+  function ProjectCard({ imgSrc }) {
     return (
-      <article className="bg-neutral-300 rounded-xl overflow-hidden text-center p-2 max-w-sm  shadow-lg">
-        <div className="rounded-xl w-full max-h-60 overflow-clip">
-          <img src={pfp} className="w-full object-fill" />
+      <article className="bg-[#E8FA3B] rounded-xl overflow-hidden text-center px-2 max-w-sm shadow-lg flex items-center cursor-pointer">
+        <div className="rounded-xl max-h-60 overflow-clip">
+          <img src={imgSrc} className="object-cover" />
         </div>
-        <div>
-          <p className="font-bold text-lg tracking-tight">Card Name</p>
-          <p className="p-2 text-justify text-sm">
+
+        <div className="w-3/5 px-2">
+          <p className="font-bold text-lg tracking-tight font-Flow-Circular">
+            Card Name
+          </p>
+          <p className="text-sm font-Flow-Circular">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
             praesentium, officia voluptate ex nemo, harum atque, eos fuga natus
-            dolore doloribus? Nesciunt vitae repudiandae aliquam aut sit officia
-            natus. Cum?
           </p>
         </div>
       </article>
     );
   }
 
+  const CardList = Array.from({ length: 6 }, (_, index) => {
+    return (
+      <ProjectCard
+        key={index}
+        imgSrc={`../public/assets/GenericProject${index + 1}.png`}
+      />
+    );
+  });
+
   return (
-    <div className="w-4/5 border-4 border-[#E8FA3B] rounded-xl flex flex-wrap justify-center gap-8  p-4">
-      <ProjectCard />
-      <ProjectCard />
-      <ProjectCard />
-      <ProjectCard />
-      <ProjectCard />
-      <ProjectCard />
+    <div className="w-4/5 border-4 border-[#4d3afa]  rounded-xl py-4">
+      <h2 className="text-4xl text-center font-bold mb-4 uppercase">
+        Projects:
+      </h2>
+      <div className="flex flex-wrap justify-around gap-8">{CardList}</div>
     </div>
   );
 }

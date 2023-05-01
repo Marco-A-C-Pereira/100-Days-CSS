@@ -9,6 +9,7 @@ export default {
         "Roboto-Condensed": ["Roboto Condensed", "sans-serif"],
         Prompt: ["Prompt", "sans-serif"],
         "Contrail-One": ["Contrail One", "cursive"],
+        "Flow-Circular": ["Flow Circular", "cursive"],
       },
       animation: {
         text: "text 5s ease infinite",
