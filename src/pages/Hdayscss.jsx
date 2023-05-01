@@ -43,7 +43,7 @@ export default function Hdayscss() {
           <ShowcaseItem url="11" isCompleted={false}>
             Dia 11: Aneis
           </ShowcaseItem>
-          <ShowcaseItem url="11" isCompleted={false}>
+          <ShowcaseItem url="11" isCompleted={true}>
             Dia 12: Carrossel de palavras
           </ShowcaseItem>
         </div>
