@@ -13,13 +13,13 @@ export default function Calculator() {
         <div className="my-10 flex flex-col gap-4">
           <h2 className="text-2xl tracking-tight">
             Caffeine contents:{" "}
-            <span className="text-orange-400 ml-auto">999 mg</span>
+            <span className="text-orange-400 ml-auto">360 Mg</span>
           </h2>
           <h2 className="text-2xl tracking-tight">
-            Max caffeine/day: <span className="text-orange-400">360 mg</span>
+            Max caffeine/day: <span className="text-orange-400">160 Mg</span>
           </h2>
           <h2 className="text-2xl tracking-tight">
-            Max unit/day: <span className="text-orange-400">2 u</span>
+            Max unit/day: <span className="text-orange-400">2,25 U</span>
           </h2>
         </div>
 

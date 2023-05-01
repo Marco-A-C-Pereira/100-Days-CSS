@@ -14,6 +14,12 @@ import RotatingParasol from "./components/100Days/Day-6/RotatingParasol";
 import LandingPage from "./components/DailyUI/Day-3/LandingPage";
 import Recording from "./components/100Days/Day-7/Recording";
 import Calculator from "./components/DailyUI/Day-4/Calculator";
+import Eye from "./components/100Days/Day-8/Eye";
+import CalendarDays from "./components/100Days/Day-9/CalendarDays";
+import MorseCodeKeyboard from "./components/100Days/Day-10/MorseCodeKeyboard";
+import UserProfile from "./components/DailyUI/Day-5/UserProfile";
+import Rings from "./components/100Days/Day-11/Rings";
+import WordCarrousel from "./components/100Days/Day-12/WordCarrousel";
 
 export default function App() {
   return (
@@ -30,12 +36,18 @@ export default function App() {
           <Route path="5" element={<SparkleCheckbox />} />
           <Route path="6" element={<RotatingParasol />} />
           <Route path="7" element={<Recording />} />
+          <Route path="8" element={<Eye />} />
+          <Route path="9" element={<CalendarDays />} />
+          <Route path="10" element={<MorseCodeKeyboard />} />
+          <Route path="11" element={<Rings />} />
+          <Route path="12" element={<WordCarrousel />} />
         </Route>
         <Route path="/DailyUI">
           <Route path="1" element={<SignUp />} />
           <Route path="2" element={<CreditCardCheckout />} />
           <Route path="3" element={<LandingPage />} />
           <Route path="4" element={<Calculator />} />
+          <Route path="5" element={<UserProfile />} />
         </Route>
         <Route path="/Progress" />
       </Routes>

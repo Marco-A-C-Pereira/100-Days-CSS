@@ -55,6 +55,7 @@ function SmallerCircle() {
     const TAILWINDCOLOR = "border-blue-500";
     const SIZEINTAILWIND = "20";
     const rotation = -80 * index;
+
     return (
       <Elipse
         key={index}
