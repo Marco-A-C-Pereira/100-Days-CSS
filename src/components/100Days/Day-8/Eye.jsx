@@ -38,7 +38,12 @@ export default function Eye() {
 
 	return (
 		<Frame>
-			<SectionTitle> Eye </SectionTitle>
+			<SectionTitle>
+				<p className='leading-snug font-sans font-bold'>
+					(27/4/23)
+				</p>
+				Eye{' '}
+			</SectionTitle>
 			<article
 				className='h-96 w-96 relative bg-slate-700 z-10'
 				// onMouseMove={handleMouseMove}
