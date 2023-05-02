@@ -1,25 +1,12 @@
 import React from "react";
 import Home from "./pages/Home";
 import { Routes, Route } from "react-router-dom";
-import PriceTable from "./components/100Days/Day-1/PriceTable";
+
 import Navbar from "./components/shared/Navbar";
 import Hdayscss from "./pages/Hdayscss";
-import InfiniteCircle from "./components/100Days/Day-2/InfiniteCircle";
-import HoverButon from "./components/100Days/Day-3/HoverButon";
-import SpinningElipses from "./components/100Days/Day-4/SpinningElipses";
-import SignUp from "./components/DailyUI/Day-1/SignUp";
-import SparkleCheckbox from "./components/100Days/Day-5/SparkleCheckbox";
-import CreditCardCheckout from "./components/DailyUI/Day-2/CreditCardCheckout";
-import RotatingParasol from "./components/100Days/Day-6/RotatingParasol";
-import LandingPage from "./components/DailyUI/Day-3/LandingPage";
-import Recording from "./components/100Days/Day-7/Recording";
-import Calculator from "./components/DailyUI/Day-4/Calculator";
-import Eye from "./components/100Days/Day-8/Eye";
-import CalendarDays from "./components/100Days/Day-9/CalendarDays";
-import MorseCodeKeyboard from "./components/100Days/Day-10/MorseCodeKeyboard";
-import UserProfile from "./components/DailyUI/Day-5/UserProfile";
-import Rings from "./components/100Days/Day-11/Rings";
-import WordCarrousel from "./components/100Days/Day-12/WordCarrousel";
+
+import * as HD from "./components/100Days";
+import * as DUI from "./components/DailyUI";
 
 export default function App() {
   return (
@@ -29,25 +16,26 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="100DaysCSS">
           <Route index element={<Hdayscss />} />
-          <Route path="1" element={<PriceTable />} />
-          <Route path="2" element={<InfiniteCircle />} />
-          <Route path="3" element={<HoverButon />} />
-          <Route path="4" element={<SpinningElipses />} />
-          <Route path="5" element={<SparkleCheckbox />} />
-          <Route path="6" element={<RotatingParasol />} />
-          <Route path="7" element={<Recording />} />
-          <Route path="8" element={<Eye />} />
-          <Route path="9" element={<CalendarDays />} />
-          <Route path="10" element={<MorseCodeKeyboard />} />
-          <Route path="11" element={<Rings />} />
-          <Route path="12" element={<WordCarrousel />} />
+          <Route path="1" element={<HD.PriceTable />} />
+          <Route path="2" element={<HD.InfiniteCircle />} />
+          <Route path="3" element={<HD.HoverButon />} />
+          <Route path="4" element={<HD.SpinningElipses />} />
+          <Route path="5" element={<HD.SparkleCheckbox />} />
+          <Route path="6" element={<HD.RotatingParasol />} />
+          <Route path="7" element={<HD.Recording />} />
+          <Route path="8" element={<HD.Eye />} />
+          <Route path="9" element={<HD.CalendarDays />} />
+          <Route path="10" element={<HD.MorseCodeKeyboard />} />
+          <Route path="11" element={<HD.Rings />} />
+          <Route path="12" element={<HD.WordCarrousel />} />
         </Route>
         <Route path="/DailyUI">
-          <Route path="1" element={<SignUp />} />
-          <Route path="2" element={<CreditCardCheckout />} />
-          <Route path="3" element={<LandingPage />} />
-          <Route path="4" element={<Calculator />} />
-          <Route path="5" element={<UserProfile />} />
+          <Route path="1" element={<DUI.SignUp />} />
+          <Route path="2" element={<DUI.CreditCardCheckout />} />
+          <Route path="3" element={<DUI.LandingPage />} />
+          <Route path="4" element={<DUI.Calculator />} />
+          <Route path="6" element={<DUI.UserProfile />} />
+          <Route path="7" element={<DUI.Settings />} />
         </Route>
         <Route path="/Progress" />
       </Routes>
