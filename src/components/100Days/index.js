@@ -11,3 +11,4 @@ export { default as MorseCodeKeyboard } from './Day-10/MorseCodeKeyboard';
 export { default as Rings } from './Day-11/Rings';
 export { default as WordCarrousel } from './Day-12/WordCarrousel';
 export { default as Pagination } from './Day-13/Pagination';
+export { default as SphereIllusion } from './Day-14/SphereIllusion';

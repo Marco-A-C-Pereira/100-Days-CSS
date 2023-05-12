@@ -75,7 +75,12 @@ export default function Hdayscss() {
 					<ShowcaseItem
 						url='13'
 						isCompleted={true}>
-						Dia 12: Paginação
+						Dia 13: Paginação
+					</ShowcaseItem>
+					<ShowcaseItem
+						url='14'
+						isCompleted={false}>
+						Dia 14: Esfera 3D
 					</ShowcaseItem>
 				</div>
 			</section>

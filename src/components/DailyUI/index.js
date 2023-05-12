@@ -6,3 +6,4 @@ export { default as Calculator } from './Day-4/Calculator';
 export { default as UserProfile } from './Day-6/UserProfile';
 export { default as Settings } from './Day-7/Settings';
 export { default as ErrorPage404 } from './Day-8/ErrorPage404';
+export { default as MusicPlayer } from './Day-9/MusicPlayer';

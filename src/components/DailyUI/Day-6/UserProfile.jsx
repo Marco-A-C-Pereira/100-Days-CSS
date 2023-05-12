@@ -1,6 +1,4 @@
 import React from 'react';
-// import pfp from "./assets/Lainpfp.jpg";
-// import * as images from "./assets/";
 import {
 	BellIcon,
 	PencilIcon,

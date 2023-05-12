@@ -74,6 +74,10 @@ export default function App() {
 						path='13'
 						element={<HD.Pagination />}
 					/>
+					<Route
+						path='14'
+						element={<HD.SphereIllusion />}
+					/>
 				</Route>
 				<Route path='/DailyUI'>
 					<Route
@@ -103,6 +107,10 @@ export default function App() {
 					<Route
 						path='8'
 						element={<DUI.ErrorPage404 />}
+					/>
+					<Route
+						path='9'
+						element={<DUI.MusicPlayer />}
 					/>
 				</Route>
 				<Route path='/Progress' />
