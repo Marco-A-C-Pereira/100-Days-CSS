@@ -30,7 +30,6 @@ export default {
 				},
 			},
 		},
-		theme: {},
 	},
 	plugins: [
 		function ({ addVariant }) {

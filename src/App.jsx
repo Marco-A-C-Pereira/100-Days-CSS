@@ -78,6 +78,10 @@ export default function App() {
 						path='14'
 						element={<HD.SphereIllusion />}
 					/>
+					<Route
+						path='15'
+						element={<HD.SecretKey />}
+					/>
 				</Route>
 				<Route path='/DailyUI'>
 					<Route

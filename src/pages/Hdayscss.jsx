@@ -82,6 +82,11 @@ export default function Hdayscss() {
 						isCompleted={false}>
 						Dia 14: Esfera 3D
 					</ShowcaseItem>
+					<ShowcaseItem
+						url='15'
+						isCompleted={true}>
+						Dia 15: Chave Secreta
+					</ShowcaseItem>
 				</div>
 			</section>
 		</main>
