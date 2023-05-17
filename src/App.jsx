@@ -116,6 +116,10 @@ export default function App() {
 						path='9'
 						element={<DUI.MusicPlayer />}
 					/>
+					<Route
+						path='10'
+						element={<DUI.ShareScreen />}
+					/>
 				</Route>
 				<Route path='/Progress' />
 			</Routes>
