@@ -89,7 +89,7 @@ export default function Hdayscss() {
 					</ShowcaseItem>
 					<ShowcaseItem
 						url='16'
-						isCompleted={false}>
+						isCompleted={true}>
 						Dia 16: MotionBlur
 					</ShowcaseItem>
 				</div>

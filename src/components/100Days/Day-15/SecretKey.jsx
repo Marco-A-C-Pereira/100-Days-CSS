@@ -16,7 +16,12 @@ export default function SecretKey() {
 
 	return (
 		<Frame>
-			<SectionTitle>Secret code</SectionTitle>
+			<SectionTitle>
+				<p className='leading-snug font-sans font-bold'>
+					(17/5/23)
+				</p>
+				Secret code
+			</SectionTitle>
 			<main
 				className={`h-96 w-96 ${
 					isPassword

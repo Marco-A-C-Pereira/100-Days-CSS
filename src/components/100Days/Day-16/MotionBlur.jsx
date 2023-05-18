@@ -8,7 +8,12 @@ export default function MotionBlur() {
 
 	return (
 		<Frame>
-			<SectionTitle>MotionBlur</SectionTitle>
+			<SectionTitle>
+				<p className='leading-snug font-sans font-bold'>
+					(18/5/23)
+				</p>
+				MotionBlur
+			</SectionTitle>
 			<main className='w-96 h-96 bg-red-300 p-8 flex items-center justify-center '>
 				<section className='relative w-full'>
 					<OuterCircle>
