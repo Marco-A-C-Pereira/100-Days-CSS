@@ -82,6 +82,10 @@ export default function App() {
 						path='15'
 						element={<HD.SecretKey />}
 					/>
+					<Route
+						path='16'
+						element={<HD.MotionBlur />}
+					/>
 				</Route>
 				<Route path='/DailyUI'>
 					<Route

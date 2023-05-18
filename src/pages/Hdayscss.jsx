@@ -87,6 +87,11 @@ export default function Hdayscss() {
 						isCompleted={true}>
 						Dia 15: Chave Secreta
 					</ShowcaseItem>
+					<ShowcaseItem
+						url='16'
+						isCompleted={false}>
+						Dia 16: MotionBlur
+					</ShowcaseItem>
 				</div>
 			</section>
 		</main>

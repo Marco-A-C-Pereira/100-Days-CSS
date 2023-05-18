@@ -13,3 +13,4 @@ export { default as WordCarrousel } from './Day-12/WordCarrousel';
 export { default as Pagination } from './Day-13/Pagination';
 export { default as SphereIllusion } from './Day-14/SphereIllusion';
 export { default as SecretKey } from './Day-15/SecretKey';
+export { default as MotionBlur } from './Day-16/MotionBlur';
