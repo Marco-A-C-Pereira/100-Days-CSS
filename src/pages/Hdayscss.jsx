@@ -92,6 +92,11 @@ export default function Hdayscss() {
 						isCompleted={true}>
 						Dia 16: MotionBlur
 					</ShowcaseItem>
+					<ShowcaseItem
+						url='17'
+						isCompleted={false}>
+						Dia 17: HoverButtons
+					</ShowcaseItem>
 				</div>
 			</section>
 		</main>

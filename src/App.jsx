@@ -86,6 +86,10 @@ export default function App() {
 						path='16'
 						element={<HD.MotionBlur />}
 					/>
+					<Route
+						path='17'
+						element={<HD.HoverButtons />}
+					/>
 				</Route>
 				<Route path='/DailyUI'>
 					<Route
