@@ -13,6 +13,7 @@ export default {
 				Prompt: ['Prompt', 'sans-serif'],
 				'Contrail-One': ['Contrail One', 'cursive'],
 				'Flow-Circular': ['Flow Circular', 'cursive'],
+				'Rock-Salt': ['Rock Salt', 'cursive'],
 			},
 			dropShadow: {
 				glow: [

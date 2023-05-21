@@ -128,6 +128,14 @@ export default function App() {
 						path='10'
 						element={<DUI.ShareScreen />}
 					/>
+					<Route
+						path='11'
+						element={<DUI.ECommerce />}
+					/>
+					<Route
+						path='12'
+						element={<DUI.CountdownTimer />}
+					/>
 				</Route>
 				<Route path='/Progress' />
 			</Routes>
