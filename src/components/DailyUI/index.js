@@ -8,5 +8,6 @@ export { default as Settings } from './Day-7/Settings';
 export { default as ErrorPage404 } from './Day-8/ErrorPage404';
 export { default as MusicPlayer } from './Day-9/MusicPlayer';
 export { default as ShareScreen } from './Day-10/ShareScreen';
-export { default as ECommerce } from './Day-11/ECommerce';
-export { default as CountdownTimer } from './Day-12/CountdownTimer';
+export { default as FlashMessage } from './Day-11/FlashMessage';
+export { default as ECommerce } from './Day-12/ECommerce';
+export { default as CountdownTimer } from './Day-14/CountdownTimer';
