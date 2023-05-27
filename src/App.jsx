@@ -137,6 +137,10 @@ export default function App() {
 						element={<DUI.ECommerce />}
 					/>
 					<Route
+						path='13'
+						element={<DUI.DirectMessaging />}
+					/>
+					<Route
 						path='14'
 						element={<DUI.CountdownTimer />}
 					/>

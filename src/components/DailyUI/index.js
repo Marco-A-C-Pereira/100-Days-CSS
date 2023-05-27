@@ -10,4 +10,5 @@ export { default as MusicPlayer } from './Day-9/MusicPlayer';
 export { default as ShareScreen } from './Day-10/ShareScreen';
 export { default as FlashMessage } from './Day-11/FlashMessage';
 export { default as ECommerce } from './Day-12/ECommerce';
+export { default as DirectMessaging } from './Day-13/DirectMessaging';
 export { default as CountdownTimer } from './Day-14/CountdownTimer';
