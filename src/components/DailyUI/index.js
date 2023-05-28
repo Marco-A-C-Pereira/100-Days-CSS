@@ -12,3 +12,4 @@ export { default as FlashMessage } from './Day-11/FlashMessage';
 export { default as ECommerce } from './Day-12/ECommerce';
 export { default as DirectMessaging } from './Day-13/DirectMessaging';
 export { default as CountdownTimer } from './Day-14/CountdownTimer';
+export { default as OnOffSwitch } from './Day-15/OnOffSwitch';

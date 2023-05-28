@@ -144,6 +144,10 @@ export default function App() {
 						path='14'
 						element={<DUI.CountdownTimer />}
 					/>
+					<Route
+						path='15'
+						element={<DUI.OnOffSwitch />}
+					/>
 				</Route>
 				<Route path='/Progress' />
 			</Routes>
