@@ -148,6 +148,10 @@ export default function App() {
 						path='15'
 						element={<DUI.OnOffSwitch />}
 					/>
+					<Route
+						path='16'
+						element={<DUI.PopUp />}
+					/>
 				</Route>
 				<Route path='/Progress' />
 			</Routes>
